@@ -1,0 +1,12 @@
+session_name: starter
+windows:
+- focus: 'true'
+  layout: fa73,190x42,0,0[190x21,0,0,1,190x20,0,22{95x20,0,22,2,94x20,96,22,3}]
+  options: {}
+  panes:
+  - bash
+  - bash
+  - focus: 'true'
+    shell_command: python3
+  start_directory: /home/bobby/.config/tmuxp
+  window_name: window_1
